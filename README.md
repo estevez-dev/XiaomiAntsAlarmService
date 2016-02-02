@@ -2,7 +2,7 @@
 A service for Xiaomi YI smart IP camera Android app. It can help you to not miss any movement alarm.
 
 ## How ot works?
-It just handlle all notification for original Xiaomi Android application and shows you a fullscreen alarm with the sound and vibration.
+It just handle all notifications from original Xiaomi Android application and shows you a fullscreen alarm with the sound and vibration.
 
 ## What's inside?
 ### MainActivity
