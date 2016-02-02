@@ -1,5 +1,5 @@
 # Xiaomi Ants Alarm Service
-A service for Xiaomi YI smart IP camera Android app. It can you to not miss any movement alarm.
+A service for Xiaomi YI smart IP camera Android app. It can help you to not miss any movement alarm.
 
 ## How ot works?
 It just handlle all notification for original Xiaomi Android application and shows you a fullscreen alarm with the sound and vibration.
