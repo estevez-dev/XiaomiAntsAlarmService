@@ -50,5 +50,10 @@ public class AntsNotificationsService extends NotificationListenerService {
         }
     }
 
+    @Override
+    public void onNotificationRemoved(StatusBarNotification sbn) {
+
+    }
+
 
 }
