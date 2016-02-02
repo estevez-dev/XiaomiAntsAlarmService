@@ -20,7 +20,6 @@ import java.util.GregorianCalendar;
 
 public class AntsNotificationsService extends NotificationListenerService {
 
-    private String TAG = this.getClass().getSimpleName();
     private SharedPreferences settings;
 
     @Override
@@ -38,7 +37,6 @@ public class AntsNotificationsService extends NotificationListenerService {
     public void onNotificationPosted(StatusBarNotification sbn) {
         if (settings.getBoolean("enable", false)) {
             if (sbn.getPackageName().equals("com.ants360.yicamera")) {
-                //Log.i(TAG, sbn.getNotification().extras.getString("android.title"));
                 Intent dialogIntent = new Intent(this, AlarmActivity.class);
                 dialogIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 Bundle b = new Bundle();
@@ -52,14 +50,5 @@ public class AntsNotificationsService extends NotificationListenerService {
         }
     }
 
-    @Override
-    public void onNotificationRemoved(StatusBarNotification sbn) {
-       /* Log.i(TAG,"********** onNOtificationRemoved");
-        Log.i(TAG, "ID :" + sbn.getId() + "\t" + sbn.getNotification().tickerText + "\t" + sbn.getPackageName());
-        Intent i = new  Intent("com.keyboard_crumbs.xiaomiantsalarmservice.NOTIFICATION_LISTENER_SERVICE");
-        i.putExtra("notification_event", "onNotificationRemoved :" + sbn.getPackageName() + "\n");*/
-
-        //sendBroadcast(i);
-    }
 
 }
