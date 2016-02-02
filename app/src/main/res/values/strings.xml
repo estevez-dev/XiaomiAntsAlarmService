@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Xiaomi Ants Alarm Service</string>
+    <string name="service_name">Xiaomi Ants Listener</string>
+
+    <string name="title_activity_alarm">Camera movement Detected!</string>
+    <string name="dummy_button">Close</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="enable_alarm">Enable fullscreen alarm</string>
+    <string name="remove_main_notification">Remove Xiaomi app notification</string>
+    <string name="test_alarm">Test Alarm</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="enable_wan_monitor">Run WAN monitor</string>
+    <string name="wan_monitor_stopped">WAN monitor stopped</string>
+    <string name="wan_monitor_started">WAN monitor started</string>
+    <string name="primary_wan_is_ok">Primary WAN is OK</string>
+    <string name="primary_wan_isnt_reachable">Primary WAN isnt reachable!</string>
+</resources>
