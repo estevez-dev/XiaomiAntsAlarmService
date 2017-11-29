@@ -1,4 +1,5 @@
 # Xiaomi Ants Alarm Service
+Not supported any more. The service is not handling notification any more because the structure of it was changed.
 A service for Xiaomi YI smart IP camera Android app. It can help you to not miss any movement alarm.
 
 ## How ot works?
